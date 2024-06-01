@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #c8d7e8;
+}
+
+.header{
+    color: aliceblue;
+    background-color: #081b31;
+    font-size:xx-large;
+    line-height: 75px;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: xx-large;
+    gap: 5rem;
+}
+.choice{
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+}
+.choices{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 3rem;
+    
+}
+.choice:hover{
+    display: flex;
+    justify-content: center;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.msgprinter{
+    margin-top: 5rem;
+}
+.msg{
+    display:inline;
+    color: aliceblue;
+    background-color: #081b31;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 7px;
+}
+.won{
+    display:inline;
+    background-color: darkgreen;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 7px;
+}
+.lost{
+    display:inline;
+    background-color: rgb(176, 39, 14);
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 7px;
+}
+.draw{
+    display:inline;
+    background-color: rgb(166, 166, 166);
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 7px;
+}
